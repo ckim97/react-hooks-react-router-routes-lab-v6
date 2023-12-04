@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import NavBar from "./components/NavBar";
-import Card from "./components/Card";
+import NavBar from "../components/NavBar";
+import Card from "../components/Card";
 
 function Directors() {
 
@@ -18,9 +18,10 @@ function Directors() {
   return (
     <>
       <header>
-      <NavBar/>
+        <NavBar/>
       </header>
       <main>
+        <h1>Directors Page</h1>
         {renderDirectors}
       </main>
     </>
